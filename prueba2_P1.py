@@ -22,7 +22,7 @@ while i < len(notas):
         notas_bajo_4 = notas_bajo_4 + 1
     else:
         notas_mayor_igual_4 = notas_mayor_igual_4 + 1
-    i += 1
+    i = i + 1
 
 print("Cantidad de notas bajo 4.0:", notas_bajo_4)
 print("Cantidad de notas igual o mayor que 4.0:", notas_mayor_igual_4)
